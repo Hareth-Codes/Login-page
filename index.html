@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>واجهة تسجيل دخول</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="firsttitle">Login</h1>
+      <form action="">
+            <div class="input-box">
+          <i class='bx bxs-user'></i>
+       
+        <input
+          required
+          type="text"
+          name="Username"
+          id="Username"
+          placeholder="Username"
+        /><br />
+       
+        </div>
+        <div class="input-box">
+        <input
+          required
+          type="password"
+          name="Password"
+          id="Password"
+          placeholder="Password"
+        /><br />
+         <i class='bx bxs-lock-alt' ></i>
+        </div>
+
+        <input type="checkbox" name="Remember" id="Remember" />
+        <label for="Remember" class="Remember"> Remember Me </label>
+
+        <a href="#">Forgot Password?</a><br />
+        <!-- <label for="Login">Login</label> -->
+     <button>Login</button>
+      </form>
+      <nav>
+        <p>
+          Don't have an accont ? <b><a href="">Register</a></b>
+        </p>
+      </nav>
+    </header>
+  </body>
+</html>
